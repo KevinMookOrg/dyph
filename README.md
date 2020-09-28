@@ -1,7 +1,10 @@
+## Forked from GoBoundless/dyph
+This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/dyph).
+
 Dyph
 =====
-[![Circle CI](https://img.shields.io/circleci/project/kevinmookorg/dyph/master.svg)](https://circleci.com/gh/kevinmookorg/dyph)
-[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/kevinmook/dyph/master)
+[![Circle CI](https://img.shields.io/circleci/project/kevinmookorg/dyph/master.svg)](https://circleci.com/gh/KevinMookOrg/dyph)
+[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/KevinMookOrg/dyph/master)
 
 A library of useful diffing algorithms for Ruby.
 
@@ -166,10 +169,6 @@ and when there are:
 [Moin Three way differ (python)](http://hg.moinmo.in/moin/2.0/file/4a997d9f5e26/MoinMoin/util/diff3.py)
 
 [Text Diff3 (perl)](http://search.cpan.org/~tociyuki/Text-Diff3-0.10/lib/Text/Diff3.pm)
-
-
-## Forked from GoBoundless/dyph
-This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/dyph).
 
 
 ## The MIT License (MIT)
