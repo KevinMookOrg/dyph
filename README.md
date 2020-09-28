@@ -171,7 +171,8 @@ and when there are:
 ## Forked from GoBoundless/dyph
 This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/dyph).
 
-##The MIT License (MIT)
+
+## The MIT License (MIT)
 
 Copyright © `2016` `Boundless`
 
