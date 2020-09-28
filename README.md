@@ -1,11 +1,11 @@
-## Forked from GoBoundless/dyph
-This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/dyph).
-
 Dyph
 =====
 [![Circle CI](https://circleci.com/gh/KevinMookOrg/dyph.svg?style=shield)](https://circleci.com/gh/KevinMookOrg/dyph)
 
 A library of useful diffing algorithms for Ruby.
+
+## Forked from GoBoundless/dyph
+This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/dyph).
 
 ## Installation
 
