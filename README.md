@@ -3,8 +3,7 @@ This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/d
 
 Dyph
 =====
-[![Circle CI](https://img.shields.io/circleci/project/kevinmookorg/dyph/master.svg)](https://circleci.com/gh/KevinMookOrg/dyph)
-[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/KevinMookOrg/dyph/master)
+[![Circle CI](https://circleci.com/gh/KevinMookOrg/dyph.svg?style=shield)](https://circleci.com/gh/KevinMookOrg/dyph)
 
 A library of useful diffing algorithms for Ruby.
 
