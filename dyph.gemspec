@@ -5,18 +5,18 @@ Gem::Specification.new do |spec|
   spec.name          = "dyph"
   spec.version       = Dyph::VERSION
   spec.authors       = ["Kevin Mook", "Andrew Montalto", "Jacob Elder"]
-  spec.email         = ["opensource@boundless.com"]
+  spec.email         = ["kevin@kevinmook.com"]
   spec.description   = %q{A library of useful diffing algorithms for Ruby}
   spec.summary       = %q{A library of useful diffing algorithms for Ruby}
-  spec.homepage      = "https://github.com/GoBoundless/dyph"
+  spec.homepage      = "https://github.com/kevinmook/dyph"
   spec.license       = "MIT"
 
   spec.files         = %w( README.md LICENSE )
   spec.files         += Dir.glob("lib/**/*.rb")
 
-  spec.required_ruby_version = '>= 2.2.3'
+  spec.required_ruby_version = '>= 2.6.0'
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~>2.1"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-rescue"
@@ -28,5 +28,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec_junit_formatter'
   spec.add_development_dependency 'faker'
   spec.add_development_dependency 'yard'
-
 end

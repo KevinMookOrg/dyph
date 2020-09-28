@@ -1,10 +1,10 @@
 Dyph
 =====
-[![Circle CI](https://img.shields.io/circleci/project/GoBoundless/dyph/master.svg)](https://circleci.com/gh/GoBoundless/dyph)
+[![Circle CI](https://img.shields.io/circleci/project/kevinmook/dyph/master.svg)](https://circleci.com/gh/kevinmook/dyph)
 [![Code Climate](https://codeclimate.com/repos/54e39663e30ba07dc0001de6/badges/ef7028959d126bffc0d9/gpa.svg)](https://codeclimate.com/repos/54e39663e30ba07dc0001de6/feed)
 [![Test Coverage](https://codeclimate.com/repos/54e39663e30ba07dc0001de6/badges/ef7028959d126bffc0d9/coverage.svg)](https://codeclimate.com/repos/54e39663e30ba07dc0001de6/coverage)
 [![Issue Count](https://codeclimate.com/repos/54e39663e30ba07dc0001de6/badges/ef7028959d126bffc0d9/issue_count.svg)](https://codeclimate.com/repos/54e39663e30ba07dc0001de6/feed)
-[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/GoBoundless/dyph/master)
+[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/kevinmook/dyph/master)
 
 A library of useful diffing algorithms for Ruby.
 
@@ -170,6 +170,9 @@ and when there are:
 
 [Text Diff3 (perl)](http://search.cpan.org/~tociyuki/Text-Diff3-0.10/lib/Text/Diff3.pm)
 
+
+## Forked from GoBoundless/dyph
+This project was forked from [GoBoundless/dyph](https://github.com/GoBoundless/dyph).
 
 ##The MIT License (MIT)
 
