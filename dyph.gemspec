@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kevin@kevinmook.com"]
   spec.description   = %q{A library of useful diffing algorithms for Ruby}
   spec.summary       = %q{A library of useful diffing algorithms for Ruby}
-  spec.homepage      = "https://github.com/kevinmook/dyph"
+  spec.homepage      = "https://github.com/kevinmookorg/dyph"
   spec.license       = "MIT"
 
   spec.files         = %w( README.md LICENSE )
@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.3.0'
   spec.add_development_dependency "awesome_print"
   spec.add_development_dependency "factory_girl"
-  spec.add_development_dependency "codeclimate-test-reporter"
   spec.add_development_dependency 'rspec_junit_formatter'
   spec.add_development_dependency 'faker'
   spec.add_development_dependency 'yard'

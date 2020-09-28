@@ -3,23 +3,16 @@ orbs:
   ruby: circleci/ruby@1.0
 
 jobs:
-  build:
+  test:
     docker:
       - image: circleci/ruby:2.6
     steps:
       - checkout
       - ruby/install-deps
-  test:
-    docker:
-      - image: circleci/ruby:2.6
-    steps:
       - ruby/rspec-test
 
 workflows:
   version: 2
   build_and_test:
     jobs:
-      - build
-      - test:
-          requires:
-            - build
+      - test

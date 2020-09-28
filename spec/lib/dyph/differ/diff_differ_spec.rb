@@ -20,9 +20,9 @@ describe Dyph::Differ do
   end
 
   describe "block changes" do
-    let(:p1) { Faker::Lorem.paragraphs(20)}
-    let(:p2) { Faker::Lorem.paragraphs(20)}
-    let(:p3) { Faker::Lorem.paragraphs(20)}
+    let(:p1) { Faker::Lorem.paragraphs(number: 20)}
+    let(:p2) { Faker::Lorem.paragraphs(number: 20)}
+    let(:p3) { Faker::Lorem.paragraphs(number: 20)}
 
     it "should pass repeated_combinations" do
       test_combos[p1,p2,p3]
@@ -31,7 +31,7 @@ describe Dyph::Differ do
 
   context "shuffled changes" do
     (1..100).each do |i|
-      let(:ps) { Faker::Lorem.paragraphs(20)}
+      let(:ps) { Faker::Lorem.paragraphs(number: 20)}
       let(:s1) { ps.shuffle }
       let(:s2) { ps.shuffle }
       let(:s3) { ps.shuffle }
